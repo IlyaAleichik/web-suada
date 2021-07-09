@@ -1,2 +1,2 @@
 # Suada
-Suada Mobile App Website
+Suada Website
