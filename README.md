@@ -1,2 +1,2 @@
-# WEB_Suada
+# Suada
 Suada Mobile App Website
