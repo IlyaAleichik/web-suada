@@ -5,14 +5,230 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Suada</title>
 
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <script src="scripts/index.js" type="module"></script>
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-    <div class="suada">
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <div class="header__container">
+
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <img src="/assets/img/logo.png">
+                </a>
+                <ul class="navbar_nav">
+                    <li class="nav__link"> <a href="#">Home</a></li>
+                    <li class="nav__link"><a href="#">Progress</a></li>
+                    <li class="nav__link"> <a href="#">Features</a></li>
+                    <li class="nav__link"> <a href="#">Reviews</a></li>
+                    <li class="nav__link nav__login"> <a href="#">Sign Up</a></li>
+                </ul>
+            </nav>
+
+            <div class="home__container">
+                <div class="home__description">
+                    <h2 class="offer-title">Great tool to <br> make your day much better</h2>
+                    <button type="button" class="home__btn ios">
+                        <i class="fa fa-apple"></i>
+                        <span>Get on IOS</span>
+                    </button>
+                    <button type="button" class="home__btn android">
+                        <i class="fa fa-android"></i>
+                        <span>Get on Android</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- /.header-container -->
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+
+        <!--==================== PROGRESS ====================-->
+        <section class="track-progress text-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="text-progress">
+                        <h2>Track your progress <br>with our built-in tracker</h2>
+                        <div class="tumblers"></div>
+                        <p class="title-text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                            praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                            occaecati cupiditate non provident,
+                            similique sunt in culpa qui
+                            officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                    </div>
+                </div>
+                <div class="row stats justify-content-center">
+                    <div class="col-md-6 col-lg-3">
+                        <div class="percents" data-value="25"></div>
+                        <h3>Error phone</h3>
+                        <p>At vero eos et accusamus et iusto odio dignissimos.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="percents" data-value="50"></div>
+                        <h3>Global usage</h3>
+                        <p>Excepturi sint occaecati cupiditate non provident.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="percents" data-value="75"></div>
+                        <h3>Compatibility</h3>
+                        <p>Similique sunt in culpa qui officia deserunt.</p>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="percents" data-value="100"></div>
+                        <h3>Customizable</h3>
+                        <p>At vero eos et accusamus et iusto odio dignissimos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== FEATURES ====================-->
+        <section class="features section" id="features">
+            <div class="mainContainer">
+                <p class="features__header">Suada will be right there<br> when you will need it</p>
+                <div class="container">
+                    <div class="textBlueSection">
+                        <div class="logoBlueSection bg-globes"></div>
+                        <div class="smallText">
+                            <p>Global</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt
+                            </p>
+                        </div>
+                    </div>
+                    <div class="textBlueSection">
+                        <div class="logoBlueSection bg-books"></div>
+                        <div class="smallText">
+                            <p>Great Documentation</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            </p>
+                        </div>
+                    </div>
+                    <div class="textBlueSection">
+                        <div class="logoBlueSection bg-shield"></div>
+                        <div class="smallText">
+                            <p>Safety & Security</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            </p>
+                        </div>
+                    </div>
+                    <div class="textBlueSection">
+                        <div class="logoBlueSection bg-sliders"></div>
+                        <div class="smallText">
+                            <p>Flexibility</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            </p>
+                        </div>
+                    </div>
+                    <div class="textBlueSection">
+                        <div class="logoBlueSection bg-lightbulbs"></div>
+                        <div class="smallText">
+                            <p>Outstanding Insight</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            </p>
+                        </div>
+                    </div>
+                    <div class="textBlueSection">
+                        <div class="logoBlueSection bg-gauges"></div>
+                        <div class="smallText">
+                            <p>Outstanding Performance</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== REVIEWS ====================-->
+
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-4 col-md-4 col-lg-2">
+                    <h3>Key features</h3>
+                    <ul class="footer-navigation">
+                        <li><a href="#">Accessibility</a></li>
+                        <li><a href="#">Compatbility</a></li>
+                        <li><a href="#">Flexibility</a></li>
+                        <li><a href="#">Safety & Security</a></li>
+                    </ul>
+                </div>
+                <div class="col-4 col-md-4 col-lg-2">
+                    <h3>Support</h3>
+                    <ul class="footer-navigation">
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Live Chat</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-5 col-md-4 col-lg-2">
+                    <h3>News & Resources</h3>
+                    <ul class="footer-navigation">
+                        <li><a href="#">Latest News</a></li>
+                        <li><a href="#">Tips & Tricks</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Press Kit</a></li>
+                    </ul>
+                </div>
+                <div class="col-4 col-md-4 col-lg-2">
+                    <h3>Developers</h3>
+                    <ul class="footer-navigation">
+                        <li><a href="#">Suada API</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Dev Forum</a></li>
+                        <li><a href="#">Open Source</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <h3>Stay in touch with us</h3>
+                    <form class="searchbar">
+                        <input class="search_input" type="text" placeholder="Weekly newsletter">
+                        <a href="#">Subscribe</a>
+                    </form>
+                    <span class="social">
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-7 col-md-6 col-lg-4 copyright">
+                    <img src="/assets/img/logo_footer.png" width="48" height="48" alt="">
+                    <span>Copyright © 2016 Suada Inc. <br> All rights reserved.</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--==================== SCROLL TOP ====================-->
+
+    <!--==================== SWIPER JS ====================-->
+    <!-- <script src=""></script> -->
+
+    <!--==================== MAIN JS ====================-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.0.1/progressbar.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+    <!-- <div class="suada">
         <div class="suada-header">
             <img src="/assets/img/logo.png" class="suada-logo">
             <nav class="suada-nav">
@@ -28,6 +244,7 @@
         </div>
 
         <div class="suada-main">
+
             <div class="main-container">
                 <div class="main-content">
                     <h2 class="main-title">Great tool to make your day much better</h2>
@@ -39,12 +256,11 @@
                 <div class="suada-img">
                     <img class="suada-phone" src="/assets/img/Component 1.png" alt="" srcset="">
                 </div>
+
             </div>
-            <!-- <img class="elipse" src="/assets/img/elipses.svg" alt="" srcset=""> -->
+
         </div>
-    </div>
-
-
+    </div> -->
 
 </body>
 

@@ -1,0 +1,102 @@
+* HEADER
+    - HOME
+    - PROGRESS 
+    - FEATURES
+    - REVIEWS
+
+
+
+* HOME
+home__description
+Great tool to make  your day much better
+
+home__get_buttons
+GET ON IOS
+GET ON ANDRP
+
+
+
+* PROGRESS
+progress__header
+Track your progress with our built-in tracker
+
+progress__definition
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+
+progress__name
+Error Prone
+Global Usage
+Compatibility
+Customizable
+
+progress__description
+At vero eos et accusamus et 
+iustoodio dignissimos.
+
+
+
+* FEATURES
+features__header
+Suada will be right there wnen you will need it
+
+features__items
+GLOBAL
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. sef do ultrices mi sit.
+
+SAFETY & SECURITY
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. sef do ultrices mi sit.
+
+OUTSTANDING INSIGHT
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. sef do ultrices mi sit.
+
+GREAT DOCUMENTATION
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. sef do ultrices mi sit.
+
+FLEXIBILITY
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. sef do ultrices mi sit.
+
+OUTSTANDING  PERFORMANCE
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. sef do ultrices mi sit.
+
+
+
+* REVIEWS
+reviews__header
+As far as we know people simply love Suada
+
+reviews__description
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+
+
+reviews__people
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo...
+Read more
+
+reviews__people-name
+Alexander Vanjuvic
+Donald Wilson
+Alexander Vanjuvic
+
+* FOOTER
+footer__map
+KEY FEATURES
+Accessibility
+Compatbility
+Flexibility
+Safety & Security
+
+footer_search-description
+STAY IN TOUCH WITH US
+Weekly newsletter SUBSCRIBE
+
+footer__social
+https://www.facebook.com/
+https://www.instagram.com/
+https://twitter.com/
+https://vk.com/
+
+footer__copyright
+Copyright © 2021 Suada Inc.
+All rights reserved.
+
+

@@ -1,0 +1,654 @@
+/*==================== GOOGLE FONTS AND FONTS ====================*/
+
+@font-face {
+  font-family: "Aktiv Grotesk Corp";
+  src: url("/assets/fonts/AktivGroteskCorp-Bold.eot");
+  src: local("AktivGroteskCorp-Bold"),
+    url("/assets/fonts/AktivGroteskCorp-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/AktivGroteskCorp-Bold.woff2") format("woff2"),
+    url("/assets/fonts/AktivGroteskCorp-Bold.woff") format("woff"),
+    url("/assets/fonts/AktivGroteskCorp-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aktiv Grotesk Corp";
+  src: url("/assets/fonts/AktivGroteskCorp-Light.eot");
+  src: local("AktivGroteskCorp-Light"),
+    url("/assets/fonts/AktivGroteskCorp-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/AktivGroteskCorp-Light.woff2") format("woff2"),
+    url("/assets/fonts/AktivGroteskCorp-Light.woff") format("woff"),
+    url("/assets/fonts/AktivGroteskCorp-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Aktiv Grotesk Corp";
+  src: url("/assets/fonts/AktivGroteskCorp-Regular.eot");
+  src: local("AktivGroteskCorp-Regular"),
+    url("/assets/fonts/AktivGroteskCorp-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("/assets/fonts/AktivGroteskCorp-Regular.woff2") format("woff2"),
+    url("/assets/fonts/AktivGroteskCorp-Regular.woff") format("woff"),
+    url("/assets/fonts/AktivGroteskCorp-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*========== VARIABLES CSS ============*/
+:root {
+  --header-height: 48px;
+  --header-margin-top: 60px;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --big-font-size: 1.5rem;
+    --bigger-font-size: 2rem;
+    --biggest-font-size: 3rem;
+
+    --normal-font-size: 1rem;
+    --smaller-font-size: 0.875rem;
+  }
+}
+
+/*==================== BASE ====================*/
+* {
+  box-sizing: box-sizing;
+  font-family: "Aktiv Grotesk Corp";
+  scroll-behavior: smooth;
+}
+
+html {
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/*==================== REUSABLE CSS CLASSES ====================*/
+
+/*==================== LAYOUT ====================*/
+
+/*==================== NAV ====================*/
+
+.header {
+  padding-top: 60px;
+  padding-bottom: 215px;
+  background: url(../img/header-mobile.png) no-repeat 50% 100%,
+    url(../img/header-bg.png) no-repeat 100% 50%,
+    linear-gradient(45deg, #ff5858 0%, #f857a6 70%) center;
+}
+
+.header__container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 208px;
+}
+
+.navbar_nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar_nav li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav__link {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 40px;
+  font-size: 14px;
+}
+
+.nav__login {
+  padding: 15px 20px 15px 20px;
+  border-radius: 35px;
+  border-style: solid;
+}
+
+.header h2 {
+  font-size: 50px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.home__description {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  max-width: 40%;
+}
+
+.home__btn {
+  display: inline-block;
+  text-align: center;
+  background: none;
+  border-radius: 35px;
+  padding: 12px 22px;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  color: white;
+}
+
+.home__btn:hover {
+  background-color: white;
+  color: black;
+}
+.ios {
+  margin-right: 20px;
+}
+
+.home__btn i {
+  font-size: 2em;
+  margin-right: 13px;
+}
+
+.home__btn span {
+  vertical-align: super;
+}
+/*==================== PROGRESS ====================*/
+
+.container {
+  text-align: center;
+}
+
+.justify-content-center {
+  justify-content: space-around;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.track-progress {
+  padding-top: 142px;
+  margin-bottom: 100px;
+}
+.track-progress h2 {
+  margin-bottom: 17px;
+}
+.track-progress .tumblers {
+  margin-bottom: 23px;
+}
+.track-progress p {
+  margin-bottom: 144px;
+}
+.text-progress {
+  width: 800px;
+}
+.stats h3 {
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 24px;
+  color: #665757;
+  margin-bottom: 21px;
+  text-transform: none;
+}
+.stats p {
+  font-size: 15px;
+  line-height: 24px;
+  width: 195px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.stats .percents {
+  margin: 0 auto;
+  width: 130px;
+  height: 130px;
+  margin-bottom: 27px;
+}
+.percents > svg {
+  width: 100%;
+  display: block;
+  transform: rotate(90deg) scale(-1, 1);
+}
+.percents-text {
+  font-size: 30px;
+  color: #665757;
+  font-weight: 700;
+}
+/*==================== FEATURES ====================*/
+
+.features {
+  color: white;
+  font-weight: lighter;
+  background: url(../img/iphone.png) no-repeat 50% 0%,
+    linear-gradient(to right, #343141 95px, #564f63 100%) 0px 120px no-repeat;
+}
+
+.features__header {
+  font-size: 40px;
+  line-height: 118.5%;
+}
+
+.mainContainer {
+  text-align: center;
+  padding-top: 261px;
+  max-width: 1109px;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.textBlueSection {
+  display: inline-block;
+  text-align: left;
+  margin: 15px;
+}
+.textBlueSection p {
+  font-size: 12px;
+}
+.logoBlueSection {
+  display: inline-block;
+  margin: 14px;
+  margin-bottom: 0;
+}
+
+.smallText {
+  display: inline-block;
+}
+.smallText > p {
+  font-size: 14px;
+  width: 376px;
+}
+.smallText > p:first-child {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.bg-globes {
+  width: 65px;
+  height: 65px;
+  background: url("../img/sprites.png") -95px -10px;
+}
+.bg-books {
+  width: 65px;
+  height: 65px;
+  background: url("../img/sprites.png") -10px -10px;
+}
+.bg-shield {
+  width: 65px;
+  height: 65px;
+  background: url("../img/sprites.png") -180px -10px;
+}
+.bg-sliders {
+  width: 65px;
+  height: 65px;
+  background: url("../img/sprites.png") -180px -95px;
+}
+.bg-lightbulbs {
+  width: 65px;
+  height: 65px;
+  background: url("../img/sprites.png") -10px -95px;
+}
+.bg-gauges {
+  width: 65px;
+  height: 65px;
+  background: url("../img/sprites.png") -95px -95px;
+}
+
+/*==================== FOOTER ====================*/
+.footer {
+  background: linear-gradient(45deg, #343241, #564f63);
+}
+.footer__block {
+  padding-top: 100px;
+  width: 563px;
+  display: inline-block;
+}
+.footer__list {
+  margin: 0;
+  padding: 0;
+}
+.footer__item {
+  display: inline-block;
+}
+.footer__list a {
+  color: #64616f;
+  text-decoration: none;
+}
+.footer__item ul {
+  font-size: 13px;
+  line-height: 27px;
+  margin: 21px;
+  padding: 0;
+}
+.footer__item ul li {
+  list-style-type: none;
+}
+// .firstWord {
+//   font-weight: 700;
+//   color: #ffffff !important;
+// }
+.footer__input {
+  display: inline-block;
+  width: 305px;
+  margin-left: 22px;
+  margin-right: 5px;
+}
+
+.footer__search {
+  max-width: 300px;
+  min-height: 20px;
+  background: #ffffff;
+  border-radius: 19px;
+}
+
+input[type="search"] {
+  border: none;
+  width: 186px;
+  vertical-align: middle;
+  border-radius: 9px;
+  outline: none;
+  margin-left: 12px;
+}
+input[type="submit"] {
+  width: 91px;
+  height: 29px;
+  border: none;
+  background: linear-gradient(45deg, #ff5d5d, #f861af);
+  vertical-align: middle;
+  border-radius: 24px;
+  margin: 3px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: bold;
+  outline: none;
+}
+input[type="submit"]:hover {
+  background: linear-gradient(45deg, #f861af, #ff5d5d);
+}
+input[type="submit"]:active {
+  background: #ffffff;
+}
+
+.smallLogo {
+  margin-top: 23px;
+}
+.smallLogo a {
+  margin: 10px;
+}
+.footer__copyright {
+  padding-top: 20px;
+}
+.footer__logo {
+  display: inline-block;
+}
+.footer__text {
+  display: inline-block;
+  color: #ffffff;
+  position: relative;
+  bottom: 30px;
+  font-size: 14px;
+}
+
+.footer {
+  background: #373445;
+  padding-top: 147px;
+  padding-bottom: 150px;
+}
+.footer h3 {
+  color: #fff;
+  font-size: 12px;
+  margin-bottom: 20px;
+
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.footer .footer-navigation {
+  margin-bottom: 100px;
+}
+
+.container {
+  max-width: 1109px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.justify-content-around {
+  justify-content: space-around;
+}
+
+.footer-navigation a {
+  font-size: 14px;
+  line-height: 34px;
+  color: rgba(255, 255, 255, 0.3);
+  text-transform: none;
+  transition: 0.15s ease-in-out;
+  font-weight: 400;
+  margin-left: 0;
+}
+.footer-navigation a:hover,
+.footer-navigation a:focus {
+  opacity: 0.5;
+  transition: 0.15s ease-in-out;
+}
+.footer .row > div:nth-child(5) {
+  margin-bottom: 110px;
+}
+.searchbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.search_input {
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 55%;
+  transition: width 0.4s linear;
+  padding: 7px;
+}
+.searchbar a {
+  padding: 10px 20px;
+  color: #fff;
+  background: linear-gradient(45deg, #ff5858 0%, #f857a6 70%) center;
+  border-radius: 19px;
+}
+.searchbar a:hover,
+.searchbar a:focus {
+  transition: 0.15s ease-in-out;
+  box-shadow: 0 0 5px 0 rgba(248, 87, 166, 1);
+}
+.social {
+  margin-bottom: 100px;
+  text-align: center;
+}
+.social i {
+  color: #fff;
+  font-size: 24px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+  margin-right: 20px;
+}
+.social a:hover,
+.social a:focus {
+  opacity: 0.5;
+  transition: 0.15s ease-in-out;
+}
+.social .fa-facebook-f {
+  padding-left: 14px;
+}
+.social .fa-instagram {
+  padding-left: 11px;
+}
+.copyright {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.copyright img {
+  margin-right: 20px;
+}
+
+// *,::before,::after{
+//   box-sizing: border-box;
+// }
+// html{
+//   scroll-behavior: smooth;
+//   font-family:  'Aktiv Grotesk Corp';
+// }
+// body{
+// margin: 0;
+// }
+
+// h1,h2,h3,p,ul{
+//   margin: 0;
+// }
+
+// .suada-header{
+//   margin-top: 60px;
+//   margin-left: auto;
+//   margin-right: auto;
+//   //border: 1px solid red;
+//   max-width: 1109px;
+
+//   position: fixed;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   left: 0;
+//   right: 0;
+// }
+
+// .suada-nav{
+//   align-items: center;
+//   display: flex;
+//   font-family: 'Aktiv Grotesk Corp';
+//   font-style: normal;
+//   font-weight: normal;
+//   font-size: 13px;
+//   line-height: 15px;
+//   display: flex;
+//   align-items: center;
+//   text-transform: uppercase;
+// }
+
+// .list{
+//   margin: 0;
+//   padding: 0;
+//   display: flex;
+//   list-style: none;
+// }
+
+// .item-link{
+//   font-weight: bold;
+//   color: #FFFFFF;
+//   margin: 0 0 0 39px;
+//   text-decoration: none;
+// }
+// .main-btn{
+//   font-weight: bold;
+//   padding: 20px;
+//   background:none;
+//   border-radius: 35px;
+//   border-style: solid;
+//   border-color: white;
+//   text-transform: uppercase;
+//   color:white;
+// }
+
+// .btn{
+//   margin-left: 18px;
+// }
+
+// .main-btn-2{
+//   font-weight: bold;
+//   margin-left: 40px;
+//   padding: 7px 15px 7px 15px;
+//   background:none;
+//   border-radius: 35px;
+//   border-style: solid;
+//   border-color: white;
+//   text-transform: uppercase;
+//   color:white;
+// }
+
+// .suada-main{
+//   margin-left: auto;
+//   margin-right: auto;
+//   justify-content: center;
+
+//   display: flex;
+//   height: 796px;
+//   background: linear-gradient(252.35deg, #FF4EA9 22.04%, #FD5D6E 57.11%, #FF5858 71.62%);
+// }
+
+// .main-container{
+//   max-width: 1299px;
+// margin-top: 176px;
+// display: inherit;
+// }
+
+// .main-content{
+// margin-top: 127px;
+// width: 393px;
+// height: 279px;
+// }
+
+// .main-title{
+//   font-family: 'Aktiv Grotesk Corp';
+//   font-style: normal;
+//   font-weight: normal;
+//   font-size: 50px;
+//   line-height: 122%;
+//   /* or 61px */
+//   color: #FFFFFF;
+// }
+// .main-btn-block{
+// left: 280px;
+// top: 303px;
+
+// font-family: 'Aktiv Grotesk Corp';
+// font-style: normal;
+// font-weight: normal;
+// font-size: 50px;
+// line-height: 122%;
+// /* or 61px */
+// color: #FFFFFF;
+// margin-top: 57px;
+// }
+
+// .suada-phone{
+//   padding-left: 86px;
+// }
+/*========== CLASS CSS ============*/
+/*========== LAYOUT ============*/
+/*========== NAV ============*/
+
+/*Show menu*/
